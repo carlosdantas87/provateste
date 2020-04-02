@@ -25,9 +25,12 @@ public class Main {
 		long inicio = System.currentTimeMillis();  
 		  
 		
+	    File diretorio = new File("C:\\saidaprova");
+	            diretorio.mkdir();
+	    
 		//Busca os arquivos a serem trabalhados
-		File dadosMercado = new File("C:\\Users\\carlos\\eclipse-workspace\\provaTecnica\\provaTecnica\\DadosMercado.csv");
-		File operacoes = new File("C:\\Users\\carlos\\eclipse-workspace\\provaTecnica\\provaTecnica\\Operacoes.csv");
+		File dadosMercado = new File("C:\\saidaprova\\DadosMercado.csv");
+		File operacoes = new File("C:\\saidaprova\\Operacoes.csv");
 		
 		
 		try {
