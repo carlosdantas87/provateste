@@ -95,7 +95,7 @@ public class Main {
 				}writer.flush();
 		        writer.close();
 			    //leitorDadosMercado.close();
-			    //leitorOperacoes.close();
+			    ////leitorOperacoes.close();
 			    
 			
 				}catch( FileNotFoundException e){
